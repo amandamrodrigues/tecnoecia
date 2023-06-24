@@ -1,0 +1,274 @@
+/* Telas gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+nav a.current {
+  color: lightcyan;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Hero da página inicial */
+.hero {
+  background-color: #f2f2f2;
+}
+
+/* Tela de produtos a venda */
+.sales-container {
+  overflow-x: scroll; 
+  overflow-y: hidden;
+  white-space: nowrap; 
+}
+
+
+.sales {
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.product img {
+  width: 200px;
+}
+
+/* Tela Quem Somos*/
+.about-section {
+  background-color: #f9f9f9;
+}
+
+/* Tela Entre em Contato*/
+.contact-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Tela Produtos e Serviços */
+.products-section ul {
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #000;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Tela de Login */
+.login-section {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-section h2 {
+  margin-bottom: 20px;
+}
+
+.login-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-section label {
+  margin-bottom: 10px;
+}
+
+.login-section input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.login-section button {
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #000;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.login-section button:hover {
+  background-color: #999;
+  color: #fff;
+}
+
+/* Imagens mesmo tamanho */
+img {
+  width: 200px;
+  height: 200px;
+}
+
+/* Imagens maiores pg venda */
+.img-grande {
+  width: 400px;
+  height: 400px;
+}
+
+/*----------*/
+.body {
+  overflow-x: hidden; 
+}
+
+.scroll-container {
+  overflow-x: scroll; 
+  white-space: nowrap; 
+}
+
+.scroll-content {
+  display: inline-block; 
+}
+
+/* Estilos adicionais para o conteúdo */
+
+.scroll-container {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.scroll-content {
+  margin-right: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #000;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+/* Pagina Feedback */
+.feedback-section {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.feedback-section h2 {
+  margin-bottom: 20px;
+}
+
+.feedback-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-section label {
+  margin-bottom: 10px;
+}
+
+.feedback-section input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.feedback-section .button {
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #000;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star:before {
+  content: '\2606';
+}
+
+.star:hover:before,
+.star:hover ~ .star:before,
+.star:checked ~ .star:before {
+  content: '\2605';
+  color: gold;
+}
+
+/* Tela de Cadastro */
+.signup-section {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-section h2 {
+  margin-bottom: 20px;
+}
+
+.signup-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-section label {
+  margin-bottom: 10px;
+}
+
+.signup-section input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.signup-section button {
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #000;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.signup-section button:hover {
+  background-color: #999;
+  color: #fff;
+}
